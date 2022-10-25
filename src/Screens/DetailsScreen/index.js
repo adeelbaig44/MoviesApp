@@ -12,7 +12,7 @@ import styles from './style';
 const DetailsScreen = () => {
   const nav = useNavigation();
   const selectedMovies = useSelector(state => state.selectedMovies.Movies);
-  //route
+  //route function
   const route = useRoute();
   const MovieData = route?.params?.data;
   return (
